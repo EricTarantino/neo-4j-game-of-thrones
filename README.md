@@ -73,3 +73,7 @@ STARTS WITH, ENDS WITH, CONTAINS,+(Concatenate)
 - MATCH allShortestPath ((a)-[*]-(b))
 ## WITH
 Propagate a results further to another query
+## Run a script
+```sh
+./neo4j-shell -c < MY_FILE.cypher
+```
